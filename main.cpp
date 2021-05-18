@@ -17,9 +17,7 @@ int main()
     cout << "Enter input: ";
     cin >> inputStr;
 
-    vector<char> inputArr;
-    inputArr.push_back('N');
-    inputArr.push_back('N');
+    vector<char> inputArr(2,'N');
 
     for (size_t i = 0; i < inputStr.length(); i++)
     {
